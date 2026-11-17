@@ -1,0 +1,5 @@
+testCase,email,password,expectedStatus,expectedSuccess,expectedError
+TC01_Valid_User,test@eshop.com,Test1234!,200,true,
+TC02_Wrong_Password,test@eshop.com,WrongPass!,401,false,Invalid email or password
+TC03_User_NotFound,ghost_user_99@eshop.com,Test1234!,401,false,Invalid email or password
+TC04_Missing_Password,test@eshop.com,,400,false,required

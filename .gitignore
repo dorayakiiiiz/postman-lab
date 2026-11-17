@@ -1,0 +1,8 @@
+node_modules/
+*.sqlite
+results/
+.DS_Store
+Thumbs.db
+
+SOLUTIONS.md
+postman/eShop_HandsOnLab_Solution.postman_collection.json
